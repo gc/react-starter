@@ -11,8 +11,7 @@
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
-		"lint": "prettier --check \"./**/.{ts,js,json}\" --write && eslint \"./**/.{ts,js,json}\" --fix",
-		"checklint": "prettier --check \"./**/.{ts,js,json}\" && eslint \"./**/.{ts,js,json}\""
+		"lint": "prettier --check \"/**/.{ts,js,json}\" --write && eslint \"/**/.{ts,js,json}\" --fix"
 	},
 	"eslintConfig": {
 		"extends": "react-app"

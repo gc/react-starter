@@ -24,8 +24,6 @@ jobs:
                   key: ${{ runner.os }}-12-${{ hashFiles('**/yarn.lock') }}
             - name: Install Dependencies
               run: yarn
-            - name: Lint
-              run: yarn checklint
             - name: Run ESLint
               uses: icrawl/action-eslint@v1
               env:
